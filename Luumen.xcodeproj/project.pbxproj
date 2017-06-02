@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5439D81C88E64C00095B0D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439CE1C88E64C00095B0D /* OpenSans-Bold.ttf */; };
+		4C5439D91C88E64C00095B0D /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439CF1C88E64C00095B0D /* OpenSans-BoldItalic.ttf */; };
+		4C5439DA1C88E64C00095B0D /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D01C88E64C00095B0D /* OpenSans-ExtraBold.ttf */; };
+		4C5439DB1C88E64C00095B0D /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D11C88E64C00095B0D /* OpenSans-ExtraBoldItalic.ttf */; };
+		4C5439DC1C88E64C00095B0D /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D21C88E64C00095B0D /* OpenSans-Italic.ttf */; };
+		4C5439DD1C88E64C00095B0D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D31C88E64C00095B0D /* OpenSans-Light.ttf */; };
+		4C5439DE1C88E64C00095B0D /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D41C88E64C00095B0D /* OpenSans-LightItalic.ttf */; };
+		4C5439DF1C88E64C00095B0D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D51C88E64C00095B0D /* OpenSans-Regular.ttf */; };
+		4C5439E01C88E64C00095B0D /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D61C88E64C00095B0D /* OpenSans-Semibold.ttf */; };
+		4C5439E11C88E64C00095B0D /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5439D71C88E64C00095B0D /* OpenSans-SemiboldItalic.ttf */; };
+		4C5439E51C88E7C100095B0D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5439E41C88E7C100095B0D /* MainViewController.swift */; };
+		4C5D23C41C88E4A2009FCC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D23C31C88E4A2009FCC75 /* AppDelegate.swift */; };
+		4C5D23C91C88E4A2009FCC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D23C71C88E4A2009FCC75 /* Main.storyboard */; };
+		4C5D23CB1C88E4A2009FCC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D23CA1C88E4A2009FCC75 /* Assets.xcassets */; };
+		4C5D23CE1C88E4A2009FCC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D23CC1C88E4A2009FCC75 /* LaunchScreen.storyboard */; };
+		4C5D23D91C88E4A2009FCC75 /* LuumenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D23D81C88E4A2009FCC75 /* LuumenTests.swift */; };
+		4C5D23E41C88E4A3009FCC75 /* LuumenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D23E31C88E4A3009FCC75 /* LuumenUITests.swift */; };
+		4CCD548B1C8E0F5A00D8C334 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD548A1C8E0F5A00D8C334 /* Calculations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5D23D51C88E4A2009FCC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5D23B81C88E4A2009FCC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5D23BF1C88E4A2009FCC75;
+			remoteInfo = Luumen;
+		};
+		4C5D23E01C88E4A3009FCC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5D23B81C88E4A2009FCC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5D23BF1C88E4A2009FCC75;
+			remoteInfo = Luumen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5439CE1C88E64C00095B0D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4C5439CF1C88E64C00095B0D /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4C5439D01C88E64C00095B0D /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4C5439D11C88E64C00095B0D /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4C5439D21C88E64C00095B0D /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		4C5439D31C88E64C00095B0D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4C5439D41C88E64C00095B0D /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4C5439D51C88E64C00095B0D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4C5439D61C88E64C00095B0D /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		4C5439D71C88E64C00095B0D /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		4C5439E41C88E7C100095B0D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4C5D23C01C88E4A2009FCC75 /* Luumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5D23C31C88E4A2009FCC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C5D23C81C88E4A2009FCC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5D23CA1C88E4A2009FCC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5D23CD1C88E4A2009FCC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5D23CF1C88E4A2009FCC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5D23D41C88E4A2009FCC75 /* LuumenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuumenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5D23D81C88E4A2009FCC75 /* LuumenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuumenTests.swift; sourceTree = "<group>"; };
+		4C5D23DA1C88E4A2009FCC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5D23DF1C88E4A3009FCC75 /* LuumenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuumenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5D23E31C88E4A3009FCC75 /* LuumenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuumenUITests.swift; sourceTree = "<group>"; };
+		4C5D23E51C88E4A3009FCC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCD548A1C8E0F5A00D8C334 /* Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5D23BD1C88E4A2009FCC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23D11C88E4A2009FCC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23DC1C88E4A2009FCC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5439E21C88E65400095B0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4C5439CE1C88E64C00095B0D /* OpenSans-Bold.ttf */,
+				4C5439CF1C88E64C00095B0D /* OpenSans-BoldItalic.ttf */,
+				4C5439D01C88E64C00095B0D /* OpenSans-ExtraBold.ttf */,
+				4C5439D11C88E64C00095B0D /* OpenSans-ExtraBoldItalic.ttf */,
+				4C5439D21C88E64C00095B0D /* OpenSans-Italic.ttf */,
+				4C5439D31C88E64C00095B0D /* OpenSans-Light.ttf */,
+				4C5439D41C88E64C00095B0D /* OpenSans-LightItalic.ttf */,
+				4C5439D51C88E64C00095B0D /* OpenSans-Regular.ttf */,
+				4C5439D61C88E64C00095B0D /* OpenSans-Semibold.ttf */,
+				4C5439D71C88E64C00095B0D /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4C5439E31C88E66A00095B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D23CF1C88E4A2009FCC75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5D23B71C88E4A2009FCC75 = {
+			isa = PBXGroup;
+			children = (
+				4C5D23C21C88E4A2009FCC75 /* Luumen */,
+				4C5D23D71C88E4A2009FCC75 /* LuumenTests */,
+				4C5D23E21C88E4A3009FCC75 /* LuumenUITests */,
+				4C5D23C11C88E4A2009FCC75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5D23C11C88E4A2009FCC75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D23C01C88E4A2009FCC75 /* Luumen.app */,
+				4C5D23D41C88E4A2009FCC75 /* LuumenTests.xctest */,
+				4C5D23DF1C88E4A3009FCC75 /* LuumenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5D23C21C88E4A2009FCC75 /* Luumen */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D23C31C88E4A2009FCC75 /* AppDelegate.swift */,
+				4C5439E41C88E7C100095B0D /* MainViewController.swift */,
+				4C5D23C71C88E4A2009FCC75 /* Main.storyboard */,
+				4C5D23CA1C88E4A2009FCC75 /* Assets.xcassets */,
+				4C5D23CC1C88E4A2009FCC75 /* LaunchScreen.storyboard */,
+				4CCD548A1C8E0F5A00D8C334 /* Calculations.swift */,
+				4C5439E21C88E65400095B0D /* Fonts */,
+				4C5439E31C88E66A00095B0D /* Supporting Files */,
+			);
+			path = Luumen;
+			sourceTree = "<group>";
+		};
+		4C5D23D71C88E4A2009FCC75 /* LuumenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D23D81C88E4A2009FCC75 /* LuumenTests.swift */,
+				4C5D23DA1C88E4A2009FCC75 /* Info.plist */,
+			);
+			path = LuumenTests;
+			sourceTree = "<group>";
+		};
+		4C5D23E21C88E4A3009FCC75 /* LuumenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D23E31C88E4A3009FCC75 /* LuumenUITests.swift */,
+				4C5D23E51C88E4A3009FCC75 /* Info.plist */,
+			);
+			path = LuumenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5D23BF1C88E4A2009FCC75 /* Luumen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5D23E81C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "Luumen" */;
+			buildPhases = (
+				4C5D23BC1C88E4A2009FCC75 /* Sources */,
+				4C5D23BD1C88E4A2009FCC75 /* Frameworks */,
+				4C5D23BE1C88E4A2009FCC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luumen;
+			productName = Luumen;
+			productReference = 4C5D23C01C88E4A2009FCC75 /* Luumen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5D23D31C88E4A2009FCC75 /* LuumenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5D23EB1C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "LuumenTests" */;
+			buildPhases = (
+				4C5D23D01C88E4A2009FCC75 /* Sources */,
+				4C5D23D11C88E4A2009FCC75 /* Frameworks */,
+				4C5D23D21C88E4A2009FCC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5D23D61C88E4A2009FCC75 /* PBXTargetDependency */,
+			);
+			name = LuumenTests;
+			productName = LuumenTests;
+			productReference = 4C5D23D41C88E4A2009FCC75 /* LuumenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C5D23DE1C88E4A2009FCC75 /* LuumenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5D23EE1C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "LuumenUITests" */;
+			buildPhases = (
+				4C5D23DB1C88E4A2009FCC75 /* Sources */,
+				4C5D23DC1C88E4A2009FCC75 /* Frameworks */,
+				4C5D23DD1C88E4A2009FCC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5D23E11C88E4A3009FCC75 /* PBXTargetDependency */,
+			);
+			name = LuumenUITests;
+			productName = LuumenUITests;
+			productReference = 4C5D23DF1C88E4A3009FCC75 /* LuumenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5D23B81C88E4A2009FCC75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Zanussi";
+				TargetAttributes = {
+					4C5D23BF1C88E4A2009FCC75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+					};
+					4C5D23D31C88E4A2009FCC75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 4C5D23BF1C88E4A2009FCC75;
+					};
+					4C5D23DE1C88E4A2009FCC75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 4C5D23BF1C88E4A2009FCC75;
+					};
+				};
+			};
+			buildConfigurationList = 4C5D23BB1C88E4A2009FCC75 /* Build configuration list for PBXProject "Luumen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5D23B71C88E4A2009FCC75;
+			productRefGroup = 4C5D23C11C88E4A2009FCC75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5D23BF1C88E4A2009FCC75 /* Luumen */,
+				4C5D23D31C88E4A2009FCC75 /* LuumenTests */,
+				4C5D23DE1C88E4A2009FCC75 /* LuumenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5D23BE1C88E4A2009FCC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5439D81C88E64C00095B0D /* OpenSans-Bold.ttf in Resources */,
+				4C5439D91C88E64C00095B0D /* OpenSans-BoldItalic.ttf in Resources */,
+				4C5439DA1C88E64C00095B0D /* OpenSans-ExtraBold.ttf in Resources */,
+				4C5439DB1C88E64C00095B0D /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				4C5439DC1C88E64C00095B0D /* OpenSans-Italic.ttf in Resources */,
+				4C5439DD1C88E64C00095B0D /* OpenSans-Light.ttf in Resources */,
+				4C5439DE1C88E64C00095B0D /* OpenSans-LightItalic.ttf in Resources */,
+				4C5439DF1C88E64C00095B0D /* OpenSans-Regular.ttf in Resources */,
+				4C5439E01C88E64C00095B0D /* OpenSans-Semibold.ttf in Resources */,
+				4C5439E11C88E64C00095B0D /* OpenSans-SemiboldItalic.ttf in Resources */,
+				4C5D23CE1C88E4A2009FCC75 /* LaunchScreen.storyboard in Resources */,
+				4C5D23CB1C88E4A2009FCC75 /* Assets.xcassets in Resources */,
+				4C5D23C91C88E4A2009FCC75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23D21C88E4A2009FCC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23DD1C88E4A2009FCC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5D23BC1C88E4A2009FCC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5439E51C88E7C100095B0D /* MainViewController.swift in Sources */,
+				4CCD548B1C8E0F5A00D8C334 /* Calculations.swift in Sources */,
+				4C5D23C41C88E4A2009FCC75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23D01C88E4A2009FCC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5D23D91C88E4A2009FCC75 /* LuumenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D23DB1C88E4A2009FCC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5D23E41C88E4A3009FCC75 /* LuumenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5D23D61C88E4A2009FCC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5D23BF1C88E4A2009FCC75 /* Luumen */;
+			targetProxy = 4C5D23D51C88E4A2009FCC75 /* PBXContainerItemProxy */;
+		};
+		4C5D23E11C88E4A3009FCC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5D23BF1C88E4A2009FCC75 /* Luumen */;
+			targetProxy = 4C5D23E01C88E4A3009FCC75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5D23C71C88E4A2009FCC75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5D23C81C88E4A2009FCC75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5D23CC1C88E4A2009FCC75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5D23CD1C88E4A2009FCC75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5D23E61C88E4A3009FCC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C5D23E71C88E4A3009FCC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5D23E91C88E4A3009FCC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Luumen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.Luumen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C5D23EA1C88E4A3009FCC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Luumen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.Luumen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C5D23EC1C88E4A3009FCC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuumenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.LuumenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luumen.app/Luumen";
+			};
+			name = Debug;
+		};
+		4C5D23ED1C88E4A3009FCC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuumenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.LuumenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luumen.app/Luumen";
+			};
+			name = Release;
+		};
+		4C5D23EF1C88E4A3009FCC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuumenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.LuumenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Luumen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C5D23F01C88E4A3009FCC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuumenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelzanussi.LuumenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Luumen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5D23BB1C88E4A2009FCC75 /* Build configuration list for PBXProject "Luumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5D23E61C88E4A3009FCC75 /* Debug */,
+				4C5D23E71C88E4A3009FCC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5D23E81C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "Luumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5D23E91C88E4A3009FCC75 /* Debug */,
+				4C5D23EA1C88E4A3009FCC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5D23EB1C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "LuumenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5D23EC1C88E4A3009FCC75 /* Debug */,
+				4C5D23ED1C88E4A3009FCC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5D23EE1C88E4A3009FCC75 /* Build configuration list for PBXNativeTarget "LuumenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5D23EF1C88E4A3009FCC75 /* Debug */,
+				4C5D23F01C88E4A3009FCC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5D23B81C88E4A2009FCC75 /* Project object */;
+}
